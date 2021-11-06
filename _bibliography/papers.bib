@@ -1,72 +1,97 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article {DeMaio2021.03.15.435416,
+	author = {De Maio, Nicola and Boulton, William and Weilguny, Lukas and Walker, Conor R. and Turakhia, Yatish and Corbett-Detig, Russell and Goldman, Nick},
+	title = {phastSim: efficient simulation of sequence evolution for pandemic-scale datasets},
+	elocation-id = {2021.03.15.435416},
+	year = {2021},
+	doi = {10.1101/2021.03.15.435416},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Sequence simulators are fundamental tools in bioinformatics, as they allow us to test data processing and inference tools, as well as being part of some inference methods. The ongoing surge in available sequence data is however testing the limits of our bioinformatics software. One example is the large number of SARS-CoV-2 genomes available, which are beyond the processing power of many methods, and simulating such large datasets is also proving difficult. Here we present a new algorithm and software for efficiently simulating sequence evolution along extremely large trees (e.g. \&lt; 100, 000 tips) when the branches of the tree are short, as is typical in genomic epidemiology. Our algorithm is based on the Gillespie approach, and implements an efficient multi-layered search tree structure that provides high computational efficiency by taking advantage of the fact that only a small proportion of the genome is likely to mutate at each branch of the considered phylogeny. Our open source software is available from https://github.com/NicolaDM/phastSim and allows easy integration with other Python packages as well as a variety of evolutionary models, including indel models and new hypermutatability models that we developed to more realistically represent SARS-CoV-2 genome evolution.Author summary One of the most influential responses to the SARS-CoV-2 pandemic has been the widespread adoption of genome sequencing to keep track of viral spread and evolution. This has resulted in vast availability of genomic sequence data, that, while extremely useful and promising, is also increasingly hard to store and process efficiently. An important task in the processing of this genetic data is simulation, that is, recreating potential histories of past and future virus evolution, to benchmark data analysis methods and make statistical inference. Here, we address the problem of efficiently simulating large numbers of closely related genomes, similar to those sequenced during SARS-CoV-2 pandemic, or indeed to most scenarios in genomic epidemiology. We develop a new algorithm to perform this task, that provides not only computational efficiency, but also extreme flexibility in terms of possible evolutionary models, allowing variation in mutation rates, non-stationary evolution, and indels; all phenomena that play an important role in SARS-CoV-2 evolution, as well as many other real-life epidemiological scenarios.Competing Interest StatementThe authors have declared no competing interest.},
+	html = {https://www.biorxiv.org/content/early/2021/09/23/2021.03.15.435416},
+	eprint = {https://www.biorxiv.org/content/early/2021/09/23/2021.03.15.435416.full.pdf},
+	journal = {bioRxiv},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@article{10.1093/gbe/evab087,
+    author = {De Maio, Nicola and Walker, Conor R. and Turakhia, Yatish and Lanfear, Robert and Corbett-Detig, Russell and Goldman, Nick},
+    title = "{Mutation Rates and Selection on Synonymous Mutations in SARS-CoV-2}",
+    journal = {Genome Biology and Evolution},
+    volume = {13},
+    number = {5},
+    year = {2021},
+    abstract = "{The COVID-19 pandemic has seen an unprecedented response from the sequencing community. Leveraging the sequence data from more than 140,000 SARS-CoV-2 genomes, we study mutation rates and selective pressures affecting the virus. Understanding the processes and effects of mutation and selection has profound implications for the study of viral evolution, for vaccine design, and for the tracking of viral spread. We highlight and address some common genome sequence analysis pitfalls that can lead to inaccurate inference of mutation rates and selection, such as ignoring skews in the genetic code, not accounting for recurrent mutations, and assuming evolutionary equilibrium. We find that two particular mutation rates, G →U and C →U, are similarly elevated and considerably higher than all other mutation rates, causing the majority of mutations in the SARS-CoV-2 genome, and are possibly the result of APOBEC and ROS activity. These mutations also tend to occur many times at the same genome positions along the global SARS-CoV-2 phylogeny (i.e., they are very homoplasic). We observe an effect of genomic context on mutation rates, but the effect of the context is overall limited. Although previous studies have suggested selection acting to decrease U content at synonymous sites, we bring forward evidence suggesting the opposite.}",
+    issn = {1759-6653},
+    doi = {10.1093/gbe/evab087},
+    html = {https://doi.org/10.1093/gbe/evab087},
+    note = {evab087},
+    eprint = {https://academic.oup.com/gbe/article-pdf/13/5/evab087/38274503/evab087.pdf},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+
+@article{10.1371/journal.pgen.1009221,
+    doi = {10.1371/journal.pgen.1009221},
+    author = {Walker, Conor R. AND Scally, Aylwyn AND De Maio, Nicola AND Goldman, Nick},
+    journal = {PLOS Genetics},
+    publisher = {Public Library of Science},
+    title = {Short-range template switching in great ape genomes explored using pair hidden Markov models},
+    year = {2021},
+    volume = {17},
+    html = {https://doi.org/10.1371/journal.pgen.1009221},
+    pages = {1-30},
+    abstract = {Many complex genomic rearrangements arise through template switch errors, which occur in DNA replication when there is a transient polymerase switch to an alternate template nearby in three-dimensional space. While typically investigated at kilobase-to-megabase scales, the genomic and evolutionary consequences of this mutational process are not well characterised at smaller scales, where they are often interpreted as clusters of independent substitutions, insertions and deletions. Here we present an improved statistical approach using pair hidden Markov models, and use it to detect and describe short-range template switches underlying clusters of mutations in the multi-way alignment of hominid genomes. Using robust statistics derived from evolutionary genomic simulations, we show that template switch events have been widespread in the evolution of the great apes’ genomes and provide a parsimonious explanation for the presence of many complex mutation clusters in their phylogenetic context. Larger-scale mechanisms of genome rearrangement are typically associated with structural features around breakpoints, and accordingly we show that atypical patterns of secondary structure formation and DNA bending are present at the initial template switch loci. Our methods improve on previous non-probabilistic approaches for computational detection of template switch mutations, allowing the statistical significance of events to be assessed. By specifying realistic evolutionary parameters based on the genomes and taxa involved, our methods can be readily adapted to other intra- or inter-species comparisons.},
+    number = {3},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@article{10.1093/molbev/msaa284,
+    author = {Dellicour, Simon and Durkin, Keith and Hong, Samuel L and Vanmechelen, Bert and Martí-Carreras, Joan and Gill, Mandev S and Meex, Cécile and Bontems, Sébastien and André, Emmanuel and Gilbert, Marius and Walker, Conor and Maio, Nicola De and Faria, Nuno R and Hadfield, James and Hayette, Marie-Pierre and Bours, Vincent and Wawina-Bokalanga, Tony and Artesi, Maria and Baele, Guy and Maes, Piet},
+    title = "{A Phylodynamic Workflow to Rapidly Gain Insights into the Dispersal History and Dynamics of SARS-CoV-2 Lineages}",
+    journal = {Molecular Biology and Evolution},
+    volume = {38},
+    number = {4},
+    pages = {1608-1613},
+    year = {2020},
+    abstract = "{Since the start of the COVID-19 pandemic, an unprecedented number of genomic sequences of SARS-CoV-2 have been generated and shared with the scientific community. The unparalleled volume of available genetic data presents a unique opportunity to gain real-time insights into the virus transmission during the pandemic, but also a daunting computational hurdle if analyzed with gold-standard phylogeographic approaches. To tackle this practical limitation, we here describe and apply a rapid analytical pipeline to analyze the spatiotemporal dispersal history and dynamics of SARS-CoV-2 lineages. As a proof of concept, we focus on the Belgian epidemic, which has had one of the highest spatial densities of available SARS-CoV-2 genomes. Our pipeline has the potential to be quickly applied to other countries or regions, with key benefits in complementing epidemiological analyses in assessing the impact of intervention measures or their progressive easement.}",
+    issn = {1537-1719},
+    doi = {10.1093/molbev/msaa284},
+    html = {https://doi.org/10.1093/molbev/msaa284},
+    eprint = {https://academic.oup.com/mbe/article-pdf/38/4/1608/37041949/msaa284.pdf},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@article{10.1371/journal.pgen.1009175,
+    doi = {10.1371/journal.pgen.1009175},
+    author = {Turakhia, Yatish AND De Maio, Nicola AND Thornlow, Bryan AND Gozashti, Landen AND Lanfear, Robert AND Walker, Conor R. AND Hinrichs, Angie S. AND Fernandes, Jason D. AND Borges, Rui AND Slodkowicz, Greg AND Weilguny, Lukas AND Haussler, David AND Goldman, Nick AND Corbett-Detig, Russell},
+    journal = {PLOS Genetics},
+    publisher = {Public Library of Science},
+    title = {Stability of SARS-CoV-2 phylogenies},
+    year = {2020},
+    volume = {16},
+    html = {https://doi.org/10.1371/journal.pgen.1009175},
+    pages = {1-34},
+    abstract = {The SARS-CoV-2 pandemic has led to unprecedented, nearly real-time genetic tracing due to the rapid community sequencing response. Researchers immediately leveraged these data to infer the evolutionary relationships among viral samples and to study key biological questions, including whether host viral genome editing and recombination are features of SARS-CoV-2 evolution. This global sequencing effort is inherently decentralized and must rely on data collected by many labs using a wide variety of molecular and bioinformatic techniques. There is thus a strong possibility that systematic errors associated with lab—or protocol—specific practices affect some sequences in the repositories. We find that some recurrent mutations in reported SARS-CoV-2 genome sequences have been observed predominantly or exclusively by single labs, co-localize with commonly used primer binding sites and are more likely to affect the protein-coding sequences than other similarly recurrent mutations. We show that their inclusion can affect phylogenetic inference on scales relevant to local lineage tracing, and make it appear as though there has been an excess of recurrent mutation or recombination among viral lineages. We suggest how samples can be screened and problematic variants removed, and we plan to regularly inform the scientific community with our updated results as more SARS-CoV-2 genome sequences are shared (https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473 and https://virological.org/t/masking-strategies-for-sars-cov-2-alignments/480). We also develop tools for comparing and visualizing differences among very large phylogenies and we show that consistent clade- and tree-based comparisons can be made between phylogenies produced by different groups. These will facilitate evolutionary inferences and comparisons among phylogenies produced for a wide array of purposes. Building on the SARS-CoV-2 Genome Browser at UCSC, we present a toolkit to compare, analyze and combine SARS-CoV-2 phylogenies, find and remove potential sequencing errors and establish a widely shared, stable clade structure for a more accurate scientific inference and discourse.},
+    number = {11},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@article{PPR:PPR262711,
+	Title = {Masking strategies for SARS-CoV-2 alignments},
+	Author = {De Maio, Nicola and Walker, Conor R. and Borges, Rui and Weilguny, Lukas and Slodkowicz, Greg and Goldman, Nick},
+	Abstract = {In recent weeks, we have seen many analyses of SARS-CoV-2 genome alignments being published or posted as preprints. Some authors, including us (Issues with SARS-CoV-2 sequencing data), have raised questions regarding the trustworthiness of some of the columns of these alignments.&lt;br&gt;&lt;br&gt;We would like to propose this space for open discussion of new and possible strategies for masking SARS-CoV-2 genome alignment columns. As far as we can tell, this is still an open question, and we welcome suggestions and comments.&lt;br&gt;&lt;br&gt;We also want to propose a common format for sharing and more easily using and combining such filtering strategies. We include in this post our proposed masking sites (and those so far recommended by @matthew.parker in our post) in VCF format. This format (see below) succinctly summarizes which positions of the genome are of relevance, their associated variants, and the reasons why such entries are in the file.&lt;br&gt;&lt;br&gt;Suggestions and further additions of purported problematic sites are very gratefully received. We will update our VCF with contributions from other groups and from our own further analyses. We also invite other groups to propose their own masking files/strategy, where they significantly differ from ours, for others to use in their own downstream analyses and to ease replication of results/analyses from third parties interested in testing different masking strategies.},
+	journal = {virological.org},
+	Year = {2020},
+	html = {https://virological.org/t/masking-strategies-for-sars-cov-2-alignments/480},
+}
+
+
+@article{PPR:PPR262710,
+	Title = {Issues with SARS-CoV-2 sequencing data},
+	Author = {De Maio, Nicola and Walker, Conor R. and Borges, Rui and Weilguny, Lukas and Slodkowicz, Greg and Goldman, Nick},
+	Abstract = {We investigate oddities in the SARS-CoV-2 genome sequences from GISAID. Many putative sequencing issues seem specific to genomic ends and to certain samples, and are easily filtered out. However, many mutations seem to arise many times along the phylogenetic tree (are highly homoplasic), and seem more likely the result of contamination, recurrent sequencing errors, or hypermutability, than selection or recombination. Some homoplasic substitutions seem laboratory-specific, suggesting that they might arise from specific combinations of sample preparation, sequencing technology, and consensus calling approaches. To help other researchers in similar efforts or who rely on available SARS-CoV-2 genome sequences in downstream analyses, we summarize the steps that we have recognised so far useful for filtering and masking alignments of SARS-CoV-2 sequences. We also hope that this will spark a discussion regarding the best methods to identify and interpret such peculiar variants and samples, and we provide here a list of filters that so far we think reasonable. First, we propose to mask alignment ends (as most of us already do), which are affected by low coverage and high rate of apparent sequencing/mapping errors. We mask positions 1–55 and 29804–29903 when aligned to reference MN908947.3, but other more or less stringent choices are possible. Secondly, we propose masking sites that appear to be highly homoplasic and have no phylogenetic signal and/or low prevalence – these can be recurrent artefacts, or otherwise hypermutable low-fitness sites that might similarly cause phylogenetic noise. A current list of these is: 187, 1059, 2094, 3037, 3130, 6990, 8022, 10323, 10741, 11074, 13408, 14786, 19684, 20148, 21137, 24034, 24378, 25563, 26144, 26461, 26681, 28077, 28826, 28854, 29700. We provide technical details of how these sites were identified below, however please note that all lists of sites outlined here are a work in progress, and might be affected by many choices made in the preliminary phylogenetic steps. In addition, we suggest masking any homoplasic positions that are exclusive to a single sequencing lab or geographic location, regardless of phylogenetic signal. Here the phylogenetic signal might be caused by a common source of error (among other things). Our current list is: 4050, 13402. We also recommend masking of positions that, despite having strong phylogenetic signal, are also strongly homoplasic. These may be caused by hypermutability at certain positions, although it is hard to rule out any possibility for now. Our current list is: 11083, 15324, 21575. Finally, as other groups have already suggested (see e.g. [12]), we recommend filtering out sequences that: have too few resolved characters (our somewhat arbitrary threshold is about 29,400 reference bases), are too diverged (as can be tested using TreeTime), have unusual locally high divergence (as can be tested using ClonalFramML), have missing/incomplete sampling date information, or that are distant from any other sequence in the dataset (we use a custom script to remove all sequences that are at least three substitutions away from any other sequence). We don’t provide a current list as this is quite long and varies as the number of publicly shared SARS-CoV-2 genome sequences increases.},
+	journal = {virological.org},
+	Year = {2020},
+	html = {https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473},
 }
