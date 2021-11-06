@@ -9,7 +9,7 @@ last_name: Walker
 email: cwalker at ebi dot ac dot uk
 description: Conor R. Walker
 footer_text:
-icon: 🦋 # the emoji used as the favicon
+icon: 🌊 # the emoji used as the favicon
 url: https://conorwalker.github.io  # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
