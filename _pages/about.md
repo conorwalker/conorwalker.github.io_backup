@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-Welcome! I am an incoming postdoc in the <a href="https://g2lab.org/">G<sup>2</sup> Lab</a> at the <a href="https://www.nygenome.org/">New York Genome Center</a> and <a href="https://www.columbia.edu/">Columbia University</a>. I will be working on developing privacy-preserving methods for analysing single-cell RNA sequencing data. 
+Welcome! I am a postdoc in the <a href="https://g2lab.org/">G<sup>2</sup> Lab</a> at the <a href="https://www.nygenome.org/">New York Genome Center</a> and <a href="https://www.columbia.edu/">Columbia University</a>. I will be working on developing privacy-preserving methods for analysing single-cell RNA sequencing data. 
 
 I recently finished my PhD in the <a href="https://www.ebi.ac.uk/research/goldman">Goldman Group</a> at the <a href="https://www.ebi.ac.uk/">European Bioinformatics Institute</a> and the <a href="https://www.cam.ac.uk/">University of Cambridge</a>. The main focus of my PhD was to statistically model small-scale rearrangements in human genomes. I also developed deep learning-based tests for detecting interspecific positive selection that are robust to alignment error, as well as working on several projects involving sequence and molecular evolutionary analyses of SARS-CoV-2 genomes.
 
