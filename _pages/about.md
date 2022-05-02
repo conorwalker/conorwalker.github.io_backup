@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoctoral Research Associate @ New York Genome Center <br /> <i class='fa fa-map-marker-alt'></i> New York, USA
+description: Postdoctoral Researcher at the New York Genome Center and Columbia University <br /> <i class='fa fa-map-marker-alt'></i> New York, USA
 
 profile:
   align: right
